@@ -42,13 +42,13 @@
         <img src="logo2.png" alt="" width="80" height="50" />
       </a>
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="home.html" class="nav-link px-2 text-black">Beranda</a></li>
-        <li><a href="produk.html" class="nav-link px-2 text-black">Produk</a></li>
-        <li><a href="pemesanan.html" class="nav-link px-2 text-black">Cara Pemesanan</a></li>
-        <li><a href="keranjang.html" class="nav-link px-2 text-black">Keranjang Belanja</a></li>
-        <li><a href="lokasi.html" class="nav-link px-2 text-black">Lokasi Toko</a></li>
-        <li><a href="hubungi.html" class="nav-link px-2 text-black">Hubungi Kami</a></li>
-        <li><a href="tentang.html" class="nav-link px-2 text-black">Tentang Kami</a></li>
+        <li><a href="home.php" class="nav-link px-2 text-black">Beranda</a></li>
+        <li><a href="produk.php" class="nav-link px-2 text-black">Produk</a></li>
+        <li><a href="pemesanan.php" class="nav-link px-2 text-black">Cara Pemesanan</a></li>
+        <li><a href="keranjang.php" class="nav-link px-2 text-black">Keranjang Belanja</a></li>
+        <li><a href="lokasi.php" class="nav-link px-2 text-black">Lokasi Toko</a></li>
+        <li><a href="hubungi.php" class="nav-link px-2 text-black">Hubungi Kami</a></li>
+        <li><a href="tentang.php" class="nav-link px-2 text-black">Tentang Kami</a></li>
       </ul>
 
       <div class="text-end">
