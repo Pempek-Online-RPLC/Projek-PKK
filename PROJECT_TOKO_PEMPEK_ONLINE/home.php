@@ -1,21 +1,3 @@
-<?php 
-				//menjalankan session : selalu diletakkan di awal
-				session_start();
-				if (isset($_SESSION['level']) && isset($_SESSION['username'])) {
-					//ini adalah halaman dengan level user
-					if ($_SESSION['level'] == "user") {
-          }
-					else{
-						echo "Anda belum terdaftar sebagai User";
-					}
-				}
-				//jika user belum terdaftar maka akan dialihkan ke halaman register.php
-				if (!isset($_SESSION['level'])) {
-					echo "Anda tidak boleh mengakses halaman ini tanpa : ";
-					echo "<a href='login.php'>Login</a><br>";
-					echo "<a href='register.php'>Belum punya User?</a>";
-				}
-			?>
 						<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -60,18 +42,18 @@
         <img src="logo2.png" alt="" width="80" height="50" />
       </a>
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="home.html" class="nav-link px-2 text-black">Beranda</a></li>
-        <li><a href="produk.html" class="nav-link px-2 text-black">Produk</a></li>
-        <li><a href="pemesanan.html" class="nav-link px-2 text-black">Cara Pemesanan</a></li>
-        <li><a href="keranjang.html" class="nav-link px-2 text-black">Keranjang Belanja</a></li>
-        <li><a href="lokasi.html" class="nav-link px-2 text-black">Lokasi Toko</a></li>
-        <li><a href="hubungi.html" class="nav-link px-2 text-black">Hubungi Kami</a></li>
-        <li><a href="tentang.html" class="nav-link px-2 text-black">Tentang Kami</a></li>
+        <li><a href="home.php" class="nav-link px-2 text-black">Beranda</a></li>
+        <li><a href="produk.php" class="nav-link px-2 text-black">Produk</a></li>
+        <li><a href="pemesanan.php" class="nav-link px-2 text-black">Cara Pemesanan</a></li>
+        <li><a href="keranjang.php" class="nav-link px-2 text-black">Keranjang Belanja</a></li>
+        <li><a href="lokasi.php" class="nav-link px-2 text-black">Lokasi Toko</a></li>
+        <li><a href="hubungi.php" class="nav-link px-2 text-black">Hubungi Kami</a></li>
+        <li><a href="tentang.php" class="nav-link px-2 text-black">Tentang Kami</a></li>
       </ul>
 
       <div class="text-end">
-        <button type="button" class="btn btn-outline-dark me-2"><a href="login.html">Sign In</a></button>
-        <button type="button" class="btn btn-outline-dark me-2"><a href="signup.html">Sign Up</a></button>
+        <button type="button" class="btn btn-outline-dark me-2"><a href="login.php">Sign In</a></button>
+        <button type="button" class="btn btn-outline-dark me-2"><a href="signup.php">Sign Up</a></button>
       </div>
     </div>
     
@@ -100,7 +82,7 @@
   <!-- Akhir Jumbroton -->
 
   <!-- Awal Footer -->
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning fixed-bottom">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning">
   <div class="col-md-4 d-flex align-items-center">
     <span class="text">&copy; BeliPempek 2021 Company, Inc</span>
   </div>
