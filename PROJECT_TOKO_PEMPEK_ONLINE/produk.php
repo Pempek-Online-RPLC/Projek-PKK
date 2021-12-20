@@ -8,6 +8,7 @@
     <meta name="description" content="" />
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
     <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Produk · BeliPempek</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/" />
@@ -34,6 +35,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir CSS -->
+
     <!-- File ikon -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
       <symbol id="facebook" viewBox="0 0 16 16">
@@ -57,11 +59,20 @@
         />
       </symbol>
     </svg>
-
     <!-- Akhir ikon -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Modal -->
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+   
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Akhir Modal -->
+
   </head>
+
   <!-- Awal Header -->
   <header class="p-3 bg-warning text-black">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -69,13 +80,13 @@
         <img src="logo2.png" alt="" width="80" height="50" />
       </a>
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="home.html" class="nav-link px-2 text-black">Beranda</a></li>
-        <li><a href="produk.html" class="nav-link px-2 text-black">Produk</a></li>
-        <li><a href="pemesanan.html" class="nav-link px-2 text-black">Cara Pemesanan</a></li>
-        <li><a href="keranjang.html" class="nav-link px-2 text-black">Keranjang Belanja</a></li>
-        <li><a href="lokasi.html" class="nav-link px-2 text-black">Lokasi Toko</a></li>
-        <li><a href="hubungi.html" class="nav-link px-2 text-black">Hubungi Kami</a></li>
-        <li><a href="tentang.html" class="nav-link px-2 text-black">Tentang Kami</a></li>
+        <li><a href="home.php" class="nav-link px-2 text-black">Beranda</a></li>
+        <li><a href="produk.php" class="nav-link px-2 text-black">Produk</a></li>
+        <li><a href="pemesanan.php" class="nav-link px-2 text-black">Cara Pemesanan</a></li>
+        <li><a href="keranjang.php" class="nav-link px-2 text-black">Keranjang Belanja</a></li>
+        <li><a href="lokasi.php" class="nav-link px-2 text-black">Lokasi Toko</a></li>
+        <li><a href="hubungi.php" class="nav-link px-2 text-black">Hubungi Kami</a></li>
+        <li><a href="tentang.php" class="nav-link px-2 text-black">Tentang Kami</a></li>
       </ul>
 
       <div class="text-end">
@@ -85,20 +96,21 @@
     </div>
   </header>
   <!-- Akhir Header -->
+
   <body>
-    <!-- Awal Produk -->
-    <main>
-      <div class="album py-5 bg-light">
-        <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col-md-3">
-              <div class="card shadow-sm">
-                <img src="Produk.jpeg" alt="Telur" title="Telur">
+    <!-- Awal Produk -->    
+    <div class="album py-5 ">
+      <div class="container">       
+        <h2>Produk</h2>  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col-md-3">
+            <div class="card shadow">
+              <img src="mix.jpg" alt="Pempek Mix" title="Mix">
                 <div class="card-body">
-                  <p class="card-text">Deskripsi Produk</p>
+                  <p class="card-text">Pempek Mix</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModalCenter">Detail</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
                           <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
@@ -121,14 +133,60 @@
                 </div>
               </div>
             </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content rounded-0">
+          <div class="modal-body py-0">
+
+            
+            <div class="d-flex main-content">
+              <div class="bg-image promo-img mr-3" style="background-image: url('mix.jpg');">
+                
+              </div>
+              <div class="content-text p-4 px-5 align-item-stretch">
+                <div class="text-center">
+                    <a href="#" class="close"><span class="icon-close"></span></a>
+                    <h3 class="mb-3 line">Pempek Mix</h3>
+                    
+
+                    <p class="mb-5">Pempek mix merupakan pempek yang berisi masing-masing 4 buah  pempek lenjer, pempek telur dan pempek pasos (pastel sosis)</p>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
+                          <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
+                          <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                          />
+                        </svg>
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+                          <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                          />
+                        </svg>
+                      </button>
+                    
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- Akhir Modal -->
+
             <div class="col-md-3">
-              <div class="card shadow-sm">
-                <img src="Produk.jpeg" alt="Lenjer" title="Lenjer">
+              <div class="card shadow">
+                <img src="lenjer.jpg" alt="Pempek Lenjer" title="Lenjer">
                 <div class="card-body">
-                  <p class="card-text">Deskripsi Produk</p>
+                  <p class="card-text">Pempek Lenjer</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary " data-toggle="modal" data-target="#exampleModalCenter2">Detail</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
                           <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
@@ -151,14 +209,59 @@
                 </div>
               </div>
             </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content rounded-0">
+          <div class="modal-body py-0">
+
+            
+            <div class="d-flex main-content">
+              <div class="bg-image promo-img mr-3" style="background-image: url('lenjer.jpg');">
+                
+              </div>
+              <div class="content-text p-4 px-5 align-item-stretch">
+                <div class="text-center">
+                    <a href="#" class="close"><span class="icon-close"></span></a>
+                    <h3 class="mb-3 line">Pempek Lenjer</h3>
+                    
+
+                    <p class="mb-5">All their equipment and instruments are alive. The sky was this is cloudless and of a deep dark blue. A shining crescent far beneath the flying vessel.</p>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
+                          <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
+                          <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                          />
+                        </svg>
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+                          <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                          />
+                        </svg>
+                      </button>
+                    
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- Akhir Modal -->
+
             <div class="col-md-3">
-              <div class="card shadow-sm">
-                <img src="Produk.jpeg" alt="Pastel" title="Pastel">
+              <div class="card shadow">
+                <img src="telur.jpg" alt="Pempek Telur" title="Telur">
                 <div class="card-body">
-                  <p class="card-text">Deskripsi Produk</p>
+                  <p class="card-text">Pempek Telur</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModalCenter3">Detail</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
                           <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
@@ -181,17 +284,60 @@
                 </div>
               </div>
             </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content rounded-0">
+          <div class="modal-body py-0">
 
+            
+            <div class="d-flex main-content">
+              <div class="bg-image promo-img mr-3" style="background-image: url('telur.jpg');">
+                
+              </div>
+              <div class="content-text p-4 px-5 align-item-stretch">
+                <div class="text-center">
+                    <a href="#" class="close"><span class="icon-close"></span></a>
+                    <h3 class="mb-3 line">Pempek Telur</h3>
+                    
+
+                    <p class="mb-5">All their equipment and instruments are alive. The sky was this is cloudless and of a deep dark blue. A shining crescent far beneath the flying vessel.</p>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
+                          <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
+                          <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                          />
+                        </svg>
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+                          <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                          />
+                        </svg>
+                      </button>
+                    
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- Akhir Modal -->
             <div class="col-md-3">
-              <div class="card shadow-sm">
-                <img src="Produk.jpeg" alt="Mix" title="Mix">
+              <div class="card shadow">
+                <img src="pasos.jpg" alt="Pempek Pasos" title="Pasos">
                 
 
                 <div class="card-body">
-                  <p class="card-text">Deskripsi Produk</p>
+                  <p class="card-text">Pempek Pasos</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"data-toggle="modal" data-target="#exampleModalCenter4">Detail</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
                           <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
@@ -218,12 +364,64 @@
             </div>
           </div>
         </div>
+    </div>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content rounded-0">
+          <div class="modal-body py-0">
+
+            
+            <div class="d-flex main-content">
+              <div class="bg-image promo-img mr-3" style="background-image: url('pasos.jpg');">
+                
+              </div>
+              <div class="content-text p-4 px-5 align-item-stretch">
+                <div class="text-center">
+                    <a href="#" class="close"><span class="icon-close"></span></a>
+                    <h3 class="mb-3 line">Pempek Pasos</h3>
+                    
+
+                    <p class="mb-5">All their equipment and instruments are alive. The sky was this is cloudless and of a deep dark blue. A shining crescent far beneath the flying vessel.</p>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
+                          <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
+                          <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                          />
+                        </svg>
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+                          <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                          />
+                        </svg>
+                      </button>
+                    
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
-    </main>
+    </div>
+          <!-- Akhir Modal -->
     <!-- Akhir ProdukS -->
+
+    <!-- Modal -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Akhir Modal -->
+
   </body>
+
   <!-- Awal Footer -->
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning fixed-bottom">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning">
     <div class="col-md-4 d-flex align-items-center">
       <span class="text">&copy; BeliPempek 2021 Company, Inc</span>
     </div>
