@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tentang Kami · BeliPempek</title>
+    <script src="https://kit.fontawesome.com/b085aff3c7.js" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir CSS -->
@@ -42,13 +43,13 @@
         <img src="logo2.png" alt="" width="80" height="50" />
       </a>
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="home.html" class="nav-link px-2 text-black">Beranda</a></li>
-        <li><a href="produk.html" class="nav-link px-2 text-black">Produk</a></li>
-        <li><a href="pemesanan.html" class="nav-link px-2 text-black">Cara Pemesanan</a></li>
-        <li><a href="keranjang.html" class="nav-link px-2 text-black">Keranjang Belanja</a></li>
-        <li><a href="lokasi.html" class="nav-link px-2 text-black">Lokasi Toko</a></li>
-        <li><a href="hubungi.html" class="nav-link px-2 text-black">Hubungi Kami</a></li>
-        <li><a href="tentang.html" class="nav-link px-2 text-black">Tentang Kami</a></li>
+        <li><a href="home.php" class="nav-link px-2 text-black">Beranda</a></li>
+        <li><a href="produk.php" class="nav-link px-2 text-black">Produk</a></li>
+        <li><a href="pemesanan.php" class="nav-link px-2 text-black">Cara Pemesanan</a></li>
+        <li><a href="keranjang.php" class="nav-link px-2 text-black">Keranjang Belanja</a></li>
+        <li><a href="lokasi.php" class="nav-link px-2 text-black">Lokasi Toko</a></li>
+        <li><a href="hubungi.php" class="nav-link px-2 text-black">Hubungi Kami</a></li>
+        <li><a href="tentang.php" class="nav-link px-2 text-black">Tentang Kami</a></li>
       </ul>
 
       <div class="text-end">
@@ -60,22 +61,89 @@
   <!-- Akhir Header -->
   <body>
     <!-- Awal Produk -->
-    <section id="produk">
-      <div class="container">
-        <div class="col">
-          <div class="row">
-            <h2>Tentang Kami</h2>
+    <div class="container py-5">
+<!-- Second Row [Team]-->
+<h2 class="font-weight-bold mb-2">Tentang Kami</h2>
+  <p class="font-italic text-muted mb-4"></p>
+
+  <div class="row pb-5 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow border-0 rounded">
+        <div class="card-body p-0"><img src="chafid.jpg" alt="" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0">Achmad Nur Chafid</h5>
+            <p class="small text-muted">System Designer</p>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item m-0"><a href="https://www.facebook.com/profile.php?id=100013229622831" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item m-0"><a href="https://www.instagram.com/an_seunghae/" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item m-0"><a href="wa.me/62895605880670" class="social-link"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="card position-absolute top-50 start-50 translate-middle" style="width: 31rem">
-        <div class="card-body"></div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow border-0 rounded">
+        <div class="card-body p-0"><img src="vito.jpg" alt="" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0">Alvito Sandi Rafael</h5>
+            <p class="small text-muted">System Analyst</p>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item m-0"><a href="https://www.facebook.com/alvitosandi.rafael" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item m-0"><a href="https://www.instagram.com/alvxto.exe/" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item m-0"><a href="wa.me/62895377294600" class="social-link"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow border-0 rounded">
+        <div class="card-body p-0"><img src="azam.jpg" alt="" class="w-100 card-img-top">
+          <div class="p-4">
+            <p class="mb-0">Mochamad Azam Zamzami</p>
+            <p class="small text-muted">Programmer</p>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item m-0"><a href="wa.me/6289697649334" class="social-link"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow border-0 rounded">
+        <div class="card-body p-0"><img src="pandu.jpg" alt="" class="w-100 card-img-top">
+          <div class="p-4">
+            <h5 class="mb-0">Pandu Fajri Pambudi</h5>
+            <p class="small text-muted">Project Manager</p>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item m-0"><a href="https://www.facebook.com/pandu.pambudi.58" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item m-0"><a href="https://www.instagram.com/capslock.panda/" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item m-0"><a href="wa.me/6285733301587" class="social-link"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Akhir ProdukS -->
   </body>
   <!-- Awal Footer -->
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning fixed-bottom">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning">
     <div class="col-md-4 d-flex align-items-center">
       <span class="text">&copy; BeliPempek 2021 Company, Inc</span>
     </div>
