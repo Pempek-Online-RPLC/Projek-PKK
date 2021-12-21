@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hubungi Kami · BeliPempek</title>
+    <title>Hubungi Kami · Pempek Kaget</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="gambar/favicon.ico">
+    <!-- Akhir Favicon -->
+    
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir CSS -->
@@ -39,7 +44,7 @@
   <header class="p-3 bg-warning text-black">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
       <a class="navbar-brand" href="#">
-        <img src="logo2.png" alt="" width="80" height="50" />
+        <img src="gambar/logo.png" alt="logo" width="80" height="45"/>
       </a>
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li><a href="home.php" class="nav-link px-2 text-black">Beranda</a></li>
@@ -101,10 +106,11 @@
     </section>
     <!-- Akhir ProdukS -->
   </body>
+
   <!-- Awal Footer -->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning fixed-bottom">
     <div class="col-md-4 d-flex align-items-center">
-      <span class="text">&copy; BeliPempek 2021 Company, Inc</span>
+      <span class="text">&copy;Pempek Kaget 2021</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -131,5 +137,6 @@
     </ul>
   </footer>
   <!-- Akhir Footer -->
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
