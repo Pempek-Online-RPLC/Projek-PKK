@@ -3,10 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lokasi Toko · BeliPempek</title>
+    <title>Lokasi Toko · Pempek Kaget</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="gambar/favicon.ico">
+    <!-- Akhir Favicon -->
+    
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir CSS -->
+
     <!-- File ikon -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
       <symbol id="facebook" viewBox="0 0 16 16">
@@ -39,7 +45,7 @@
   <header class="p-3 bg-warning text-black">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
       <a class="navbar-brand" href="#">
-        <img src="logo2.png" alt="" width="80" height="50" />
+        <img src="gambar/logo.png" alt="logo" width="80" height="45"/>
       </a>
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li><a href="home.php" class="nav-link px-2 text-black">Beranda</a></li>
@@ -73,20 +79,38 @@
 </section>
 <!-- Akhir ProdukS -->
 </body>
+
   <!-- Awal Footer -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning fixed-bottom">
-      <div class="col-md-4 d-flex align-items-center">
-        <span class="text">&copy; BeliPempek 2021 Company, Inc</span>
-      </div>
-  
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="https://twitter.com/Pempekkaget?t=rMbdGutcmf6ZxoOEyDjeWA&s=08"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/pempekkaget/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/pempekkaget69/"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="https://wa.me/message/UBBNO5LI2Y4QH1"><svg class="bi" width="24" height="24"><use xlink:href="#whatsapp"/></svg></a></li>
-      </ul>
-    </footer>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-warning fixed-bottom">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="text">&copy;Pempek Kaget 2021</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-muted" href="https://twitter.com/Pempekkaget?t=rMbdGutcmf6ZxoOEyDjeWA&s=08">
+          <svg class="bi" width="24" height="24"><use xlink:href="#twitter" /></svg>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="https://www.instagram.com/pempekkaget/">
+          <svg class="bi" width="24" height="24"><use xlink:href="#instagram" /></svg>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="https://www.facebook.com/pempekkaget69/">
+          <svg class="bi" width="24" height="24"><use xlink:href="#facebook" /></svg>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="https://wa.me/message/UBBNO5LI2Y4QH1">
+          <svg class="bi" width="24" height="24"><use xlink:href="#whatsapp" /></svg>
+        </a>
+      </li>
+    </ul>
+  </footer>
   <!-- Akhir Footer -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </html>
